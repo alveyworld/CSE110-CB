@@ -1,0 +1,14 @@
+Python programming basics topics
+
+1. Output
+2. Variables
+3. Strings
+4. Data Types
+5. Expressions
+6. String Formatting
+7. Conditions
+8. Loops
+9. Lists
+10. Methods
+11. File input
+
