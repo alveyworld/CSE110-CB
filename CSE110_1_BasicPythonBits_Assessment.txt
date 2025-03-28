@@ -1,17 +1,40 @@
 A) Variables # Topic
-	1. ...
-	...
-	15. ...
+	1. Declare a variable that represents a person's age using a valid, appropriate name. Assign it an appropriate initial value.
+	2. Declare a variable that represents a loan's interest rate using a valid, appropriate name. Assign it an appropriate initial value.
+	3. Declare a variable that represents the status of light switch, either on or off. Use an appropriate name and assign it an appropriate value.
+	4. Declare a variable that represents an ingredient for a recipe using a valid, appropriate name. Assign it an appropriate value.
+	5. Declare a variable x that and assign it a number. Use Then declare a second variable y and assign the value of x without typing anymore numbers.
+	6. Declare a variable that represent a customer account number. Use the camelCase naming convention. Assign it an appropriate initial value.
+	7. Declare a variable that represent a customer account number. Use the snake_case (underscores) naming convention. Assign it an appropriate initial value.
+	8. Declare two number variables in one statement. Use appropriate names and appropriate values.
+	9. Given two variables x and y, swap the values of x and y. Assume that x and y have initial values.
+	10. Declare a variable that represents an animal using a valid, appropriate name. Make three consecutive assignments to the same variable using appropriate values.
+	11. Declare a variable that represents coin's value using a valid, appropriate name. Make three consecutive assignments to the same variable using appropriate values.
+	12. Declare a variable that represents a button, pressed or not pressed. Make three consecutive assignments to the same variable using appropriate values.
+	13. Declare three number variables in one statement. Use appropriate names and appropriate values.
+	
 
 B) Data Types # Topic
-	1. ...
-	...
-	15. ...
+	1. Assign the variable pi an appropriate floating point value.
+	2. Assign the variable tacos_ordered an appropriate integer value.
+	3. Assign the variable favoriteColor an appropriate string value.
+	4. Assign the variable is_blind an appropriate boolean value.
+	5. Assign the variables x, y an appropriate tuple value of integers.
+	6. Use the appropriate function to convert the value 5.6 from a floating point value to an integer value and assign it to the variable numberOfPeople.
+	7. Use the appropriate function to convert the value "77" from a string value to an integer value and assign it to the variable timesToForgive.
+	8. Given the variable assignment percentGrowth = 0.34865, use the appropriate function to convert percentGrowth to a string value.
+	9. Given the variable assignment hasHair = True, use the appropriate function to convert hasHair to an integer value.
+	10. Given the variable assignment totalRainfall = "3.9845", use the appropriate function to convert totalRainfall to a floating point value.
+	11. Given the variable assignment is_pollenated = 0, use the appropriate function to convert is_pollenated to a boolean value.
+	12. Cause the statement a + b to give a TypeError by assigning the variables a and b values of incompatible types.
 
 C) Expressions # Topic
-	1. ...
-	...
-	15. ...
+	1. Given the variable assignments a, b, c = 5, 9, 2 write an expression that will add all three values.
+	2. Write a python expression that combines two integers, one float, and uses the arithmetic operators addition, and modulus
+	3. Write a python expression that uses integers and all the arithmetic expressions addition, subtraction, multiplication, division, modulus, floor division, parenthesis, and exponents.
+	4. Given the expression 3 + 5 * 2 ** 3, which evaluates to 43, insert a set of parenthesis that will change the order of operations so that the expression evaluates to 2197
+	5. 
+	
 
 D) Strings # Topic
 	1. ...

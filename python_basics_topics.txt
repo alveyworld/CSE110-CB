@@ -24,6 +24,8 @@ Python programming basics topics
 2.A the input function
 1.D Quotes on Strings
 1.A Variable naming rules
+1.A Assignment operator
+1.C Arithmetic operators
 1.A Variable naming conventions
 1.B Variable values
 1.E Comments
