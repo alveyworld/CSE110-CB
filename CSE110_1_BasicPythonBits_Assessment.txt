@@ -1,7 +1,7 @@
-A) Variables # Topic
+A) Variables# Topic
 	1. Declare a variable that represents a person's age using a valid, appropriate name. Assign it an appropriate initial value.
 	2. Declare a variable that represents a loan's interest rate using a valid, appropriate name. Assign it an appropriate initial value.
-	3. Declare a variable that represents the status of light switch, either on or off. Use an appropriate name and assign it an appropriate value.
+	3. Declare a variable that represents the status of a light switch, either on or off. Use an appropriate name and assign it an appropriate value.
 	4. Declare a variable that represents an ingredient for a recipe using a valid, appropriate name. Assign it an appropriate value.
 	5. Declare a variable x that and assign it a number. Use Then declare a second variable y and assign the value of x without typing anymore numbers.
 	6. Declare a variable that represent a customer account number. Use the camelCase naming convention. Assign it an appropriate initial value.
@@ -12,9 +12,21 @@ A) Variables # Topic
 	11. Declare a variable that represents coin's value using a valid, appropriate name. Make three consecutive assignments to the same variable using appropriate values.
 	12. Declare a variable that represents a button, pressed or not pressed. Make three consecutive assignments to the same variable using appropriate values.
 	13. Declare three number variables in one statement. Use appropriate names and appropriate values.
+	14. Declare a variable that represents a person's weight using a valid, appropriate name. Assign it an appropriate initial value.
+	15. Declare a variable that represents a student's GPA using a valid, appropriate name. Assign it an appropriate initial value.
+	16. Declare a variable that represents the status a door, either open or closed. Use an appropriate name and assign it an appropriate value.
+	17. Declare a variable that represents an ingredient for a recipe using a valid, appropriate name. Assign it an appropriate value.
+	18. Declare a variable p that and assign it a number. Use Then declare a second variable q and assign the value of p without typing anymore numbers.
+	19. Declare a variable that represent a country's population in millions. Use the camelCase naming convention. Assign it an appropriate initial value.
+	20. Declare a variable that represent a country's population in millions. Use the snake_case (underscores) naming convention. Assign it an appropriate initial value.
+	21. Declare two text variables in one statement. Use appropriate names and appropriate values.
+	22. Given two variables a and b, swap the values of an and b. Assume that an and b have initial values.
+	23. Declare a variable that represents a plant using a valid, appropriate name. Make three consecutive assignments to the same variable using appropriate values.
+	24. Declare a variable that represents product stars value using a valid, appropriate name. Make three consecutive assignments to the same variable using appropriate values.
+	25. Declare a variable that represents a person's living status, alive or not. Make three consecutive assignments to the same variable using appropriate values.
 	
 
-B) Data Types # Topic
+B) Data Types# Topic
 	1. Assign the variable pi an appropriate floating point value.
 	2. Assign the variable tacos_ordered an appropriate integer value.
 	3. Assign the variable favoriteColor an appropriate string value.
@@ -26,23 +38,72 @@ B) Data Types # Topic
 	9. Given the variable assignment hasHair = True, use the appropriate function to convert hasHair to an integer value.
 	10. Given the variable assignment totalRainfall = "3.9845", use the appropriate function to convert totalRainfall to a floating point value.
 	11. Given the variable assignment is_pollenated = 0, use the appropriate function to convert is_pollenated to a boolean value.
-	12. Cause the statement a + b to give a TypeError by assigning the variables a and b values of incompatible types.
+	12. Cause the statement a + b to give a TypeError by assigning the variables an and b values of incompatible types.
+	13. Assign the variable gravity an appropriate floating point value.
+	14. Assign the variable books_read an appropriate integer value.
+	15. Assign the variable petName an appropriate string value.
+	16. Assign the variable is_awake an appropriate boolean value.
+	17. Assign the variables width, height an appropriate tuple value of integers.
+	18. Use the appropriate function to convert the value 8.9 from a floating point value to an integer and assign it to the variable numberOfChairs.
+	19. Use the appropriate function to convert the value "42" from a string to an integer and assign it to the variable numberOfAnswers.
+	20. Given the variable assignment pi_value = 3.14159, use the appropriate function to convert pi_value to a string value.
+	21. Given the variable assignment can_drive = False, use the appropriate function to convert can_drive to an integer value.
+	22. Given the variable assignment price = "12.75", use the appropriate function to convert price to a floating point value.
+	23. Given the variable assignment has_license = 1, use the appropriate function to convert has_license to a boolean value.
+	24. Cause the statement x / y to give a TypeError by assigning x and y values of incompatible types.
 
-C) Expressions # Topic
+C) Expressions# Topic
 	1. Given the variable assignments a, b, c = 5, 9, 2 write an expression that will add all three values.
-	2. Write a python expression that combines two integers, one float, and uses the arithmetic operators addition, and modulus
+	2. Write a python expression that combines two integers, one float, and uses the arithmetic operators addition, and modulus.
 	3. Write a python expression that uses integers and all the arithmetic expressions addition, subtraction, multiplication, division, modulus, floor division, parenthesis, and exponents.
-	4. Given the expression 3 + 5 * 2 ** 3, which evaluates to 43, insert a set of parenthesis that will change the order of operations so that the expression evaluates to 2197
-	5. 
+	4. Given the expression 3 + 5 * 2 ** 3, which evaluates to 43, insert a set of parenthesis that will change the order of operations so that the expression evaluates to 2197.
+	5. Given x = 7 and y = 4, write an expression that multiplies them and subtracts 5.
+	6. Use three variables a, b, and c in a single expression that includes both addition and division.
+	7. Write an expression that uses exponents, floor division, and addition.
+	8. Write an expression that evaluates 12 + 8 % 5 without parentheses, then rewrite it with parentheses to change the order of operations so that addition happens before modulus.
+	9. Use parentheses to change the default order of operations in 4 + 6 * 3 so that the result is 30.
+	10. Combine integers and floats in an expression that uses multiplication and division.
+	11. Create an expression that subtracts a float from an integer and then multiplies the result by 10.
+	12. Write an expression using all of the following arithmetic operators: +, -, *, /, and parentheses.
+	13. Given a = 2, b = 3, and c = 4, write an expression that results in a + b raised to the power of c.
+	14. Given x = 10, write an expression that uses modulus and is converted to a boolean that evaluates to False.
+	15. Write an expression that computes the average of five numbers
+	16. Write an expression that returns the remainder when the sum of 15 and 9 is divided by 4.
+	17. Given x = 4.5, round x to the nearest whole number and multiply it by 3.
+	18. Write a nested expression using multiple levels of parentheses, at least 3 operations deep.
+	19. Write an expression that uses int(), float(), and basic arithmetic in the same line.
+	20. Given a = 7, b = 2, write an expression that evaluates to a float even though both values are integers.
 	
 
-D) Strings # Topic
-	1. ...
-	...
-	15. ...
+D) Strings# Topic
+	1. Given title = "Python", write an expression to get the first character of the value in the title variable.
+	2. From word = "elephant", access the last character in word using negative indexing.
+	3. Use slicing to get the first three letters of "banana".
+	4. Given phrase = "Hello, world!", extract the substring "world".
+	5. Write code that gets every other character from "pineapple" using slicing.
+	6. Assign a string to a variable using single quotes that includes a person's first name.
+	7. Assign a string to a variable using double quotes that contains a full sentence.
+	8. Create a string using triple quotes that spans multiple lines.
+	9. Write a string with both single and double quotes inside it by using the appropriate quote style.
+	10. Create a string that includes an apostrophe without causing a syntax error.
+	11. Assign your favorite movie title to a variable.
+	12. Find the length of the string "umbrella" using the appropriate function.
+	13. Use the + operator to build the word "sunshine" from "sun" and "shine".
+	14. Use the * operator to create a border of "=" that repeats 20 times.
+	15. Use the + operator to concatenate "first", "second", and "third" with hyphens (-) in between.
+	16. Use the in operator to check if "cat" is found in "scatter", and assign the result to a variable.
+	17. Use the not in operator to verify that the letter "z" is not in the word "apple", and assign the result to a variable.
+	18. Concatenate "Good" and "Morning" into one string with a space in between, assign it to a variable.
+	19. Combine "The total is " and 42 into one string using concatenation. Make sure to convert the number to a string.
+	20. Create a variable first_name = "Luna" and last_name = "Lovegood". Concatenate them with a space in between and assign the result to the variable full_name.
+	
 
-E) Comments/Style # Topic
-	1. ...
-	...
-	15. ...
+
+
+E) Comments# Topic
+	1. The expression I = p * r * t represents calculating simple interest, where p is principal, r is interest rate, and t is time period. Write a comment to explain this expression.
+	2. Write a comment explaining this formula A = l * w for calculating the area of a rectangle, where l is length and w is width.
+	3. Write a comment explaining this formula C = 2 * 3.14 * r for calculating the circumference of a circle, where r is the radius.
+	4. Write a comment explaining how this expression F = (C * 9/5) + 32 converts temperature from Celsius to Fahrenheit.
+	5. Write a comment that explains this formula v = d / t for calculating speed, where d is distance and t is time.
 
