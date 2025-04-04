@@ -1,11 +1,69 @@
 A) Conditionals # Topic
+	1. Write a boolean expression to check if a number is positive. Use the expression in an if statement and print appropriate feedback.
+	2. Write a boolean expression to check if a number is even or odd. Use the expression in an if statement and print appropriate feedback.
+	3. Write a boolean expression to check if a number is divisible by 3 and 5. Use the expression in an if statement and print appropriate feedback.
+	4. Compare two numbers and print which is larger.
+	5. Write a boolean expression to check if a number is within the range 1–100 (inclusive). Use the expression in an if statement and print appropriate feedback.
+	6. Write a boolean expression to check if two strings are equal. Use the expression in an if statement and print appropriate feedback.
+	7. Write a boolean expression to check if a character is a vowel. Use the expression in an if statement and print appropriate feedback.
+	8. Write a boolean expression to check if a number is NOT divisible by 4. Use the expression in an if statement and print appropriate feedback.
+	9. Write a boolean expression to check if a number is negative or zero. Use the expression in an if statement and print appropriate feedback.
+	10. Write a boolean expression to check if a string is empty. Use the expression in an if statement and print appropriate feedback.
+	11. Ask the user for their age and print if they are allowed to vote (18+).
+	12. Ask the user to input a temperature and print if it’s hot (>60), cold (<30), or moderate.
+	13. Write a boolean expression to check if a person can ride a roller coaster (height ≥ 120 cm). Use the expression in an if statement and print appropriate feedback.
+	14. Write a boolean expression to check if a user-entered username is available (compare with a taken name). Use the expression in an if statement and print appropriate feedback.
+	15. Check if a number is positive, negative, or zero using if-elif-else. Print the appropriate result.
+	16. Grade classifier: Print A/B/C/D/F based on a score (0-100).
+	17. Ask the user for a day of the week and print whether it’s a weekday or weekend.
+	18. Check if a triangle is equilateral (all sides equal), isosceles (two sides equal), or scalene (no sides equal) given 3 sides.
+	19. Ask for a year and check if it’s a leap year. Leap years are divisible by 1000, or divisible by 4 and not divisible by 100.
+	20. Write a boolean expression to check if a number is between 10 and 20 and is even. Use the expression in an if statement and print appropriate feedback.
+	21. Write a boolean expression to check if a person is eligible for a student discount (age < 18 or student == True). Use the expression in an if statement and print appropriate feedback.
+	22. Ask if a user wants to continue (yes/no), print "Go" if yes, and print "Quit" if no.
+	23. Write a boolean expression to check if a user entered password is correct and at least 8 characters long. Use the expression in an if statement and print appropriate feedback.
+	24. Write a boolean expression to check if a user is logged in and has items in cart before allowing checkout. Use the expression in an if statement and print appropriate feedback.
+	25. If balance is greater than or equal to the withdrawal amount, print allow withdrawal, else print error.
+	26. If motion detected and it’s night, trigger alarm. Use an if statement and print appropriate feedback.
+	
+
+B) While Loops # Topic
+	1. Print numbers 1 to 5 using a while loop.
+	2. Print numbers from 10 down to 1 using a while loop.
+	3. Print even numbers between 2 and 20 using a while loop.
+	4. Print the square of numbers from 1 to 10 using a while loop.
+	5. Print only odd numbers from 1 to 20 using a while loop.
+	6. Keep asking the user to enter a number until they enter 0.
+	7. Start a loop and ask the user to type "exit" to stop the loop.
+	8. Ask the user to enter numbers until the sum reaches 100.
+	9. Ask the user to guess a number between 1 and 10 (loop until correct).
+	10. Keep asking for a username until they enter one longer than 5 characters.
+	11. Sum numbers 1 to 100 using a while loop.
+	12. Count how many times the user enters a number less than 10 (stop if user types 0).
+	13. In a while loop ask the user to enter a number, keep a running total of numbers entered until a negative is given. Print the total.
+	14. In a while loop multiply numbers entered by the user until they enter 1. Print the product each time through the loop.
+	15. Find the largest number entered by the user (enter 0 to stop). Print the largest number.
+	16. Ask the user for numbers but stop if the number is divisible by 7.
+	17. In a while loop, skip printing if the user enters a negative number, otherwise print it.
+	18. Print numbers 1 to 20 but skip all even numbers. Use a while loop.
+	19. In a while loop, ask the user for words; break when a word contains "z".
+	20. Keep asking for numbers; continue if it's not divisible by 5, print it if it is.
+	21. Ask for a word and print each letter using a while loop.
+	22. Ask for a sentence and count how many vowels it has using a while loop and string indexing.
+	23. Ask for a string and reverse it using a while loop and string indexing.
+	24. Keep asking for input until a palindrome is entered.
+	25. Ask for a password; loop until it contains at least one digit.
+	26. Open a file and read each line using a while loop.
+	27. Count how many lines are in a file (manual readlines with index).
+	28. Print all lines longer than 20 characters from a file.
+	29. Read numbers from a file and calculate their sum.
+	30. Read a file line by line; stop if a line contains the word “STOP”.
+
+C) For Loops # Topic
 	1. 
 
-B) Loops # Topic
+D) Lists # Topic
 	1. 
 
-C) Lists # Topic
-	1. 
-
-D) Methods # Topic
+E) Methods # Topic
 	1. 

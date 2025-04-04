@@ -15,9 +15,10 @@ Python programming basics topics
 
 3. Loopy Lists and Looney Logic Ltd.
    A. Conditionals
-   B. Loops
-   C. Lists
-   D. Methods
+   B. While Loops
+   C. For Loops
+   D. Lists
+   E. Methods
 
 
 2.C The print function
