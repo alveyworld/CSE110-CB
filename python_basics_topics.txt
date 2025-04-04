@@ -11,7 +11,7 @@ Python programming basics topics
    A. Basic Input
    B. File Input
    C. Output
-   D. String Formatting
+   D. String Formatting with f-strings
 
 3. Loopy Lists and Looney Logic Ltd.
    A. Conditionals

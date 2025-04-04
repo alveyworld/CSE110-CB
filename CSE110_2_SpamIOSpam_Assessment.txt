@@ -1,25 +1,94 @@
-A) Variables # Topic
-	1. ...
-	...
-	15. ...
+A) Basic Input # Topic
+	1. Prompt the user to enter their name and store it in a variable.
+	2. Take two numbers as input and store the sum of the two numbers in a variable.
+	3. Take two numbers as input and store the product of the two numbers in a variable.
+	4. Take two numbers as input and store the concatenation of the two numbers in a variable.
+	5. Ask for a number as input, convert it to an integer, and store it in a variable.
+	6. Ask for two words and store them as one combined string in a variable.
+	7. Ask for a birth year and then write an expression to calculate the user's age and store it in a variable.
+	8. Ask for first name and last name separately, then store the full name in a variable.
+	9. Ask for a word and a number, then store the word repeated that number of times in a variable.
+	10. Ask for the radius and store the area of a circle with that radius.
+	11. Ask for a number between 0 and 100, then store the value as a floating point percentage between 0 and 1.
+	12. Ask for a name and store the length of the name in a variable.
+	13. Ask for a bill amount and a tip percentage. Use an expression to calculate the tip and store it in a variable.
+	14. Ask for a username and a password and store them both in variables.
+	15. Ask for minutes and convert to seconds and store in a variable.
+	16. Ask for a number as input, convert it to a floating point number, and store it in a variable
+	17. Ask for a number of pennies, then store the amount converted to dollars in a variable.
+	18. Take two numbers as input and calculate the remainder after dividing the first number by the second number and store it in a variable.
+	19. Ask for three numbers and store their average in a variable.
+	20. Ask for length and width, then calculate the area and store it in a variable.
 
-B) Data Types # Topic
-	1. ...
-	...
-	15. ...
+B) File Input # Topic
+	1. Open a file called "data.txt" and store its entire contents in a variable.
+	2. Open a file called "topSellers.txt" and read the first line and store it in a variable.
+	3. Open a file called "accountNumber.txt" and read the first 10 characters and store them in a variable.
+	4. Open a file called "numbers.txt" and read the number on the first line and add 5 to it and store that value in a variable.
+	5. Open a file called "data.txt", read the number on the first line, double it, and store the result in a variable.
+	6. Open a file called "input.txt", read the number on the first line, square it, and store it in a variable.
+	7. Open a file called "numbers.txt" and read the first two lines as numbers. Add them and store the sum.
+	8. Open a file called "value.txt", read a number from the first line, subtract it from 100, and store the result.
+	9. Read a number from the first line of "halfme.txt" and divide it by 2. Store the result in a variable.
+	10. Read three numbers (one per line) from "nums.txt", multiply them, and store the result in a variable.
+	11. Open a file called "price.txt", read a price from the first line, and increase it by 10%. Store the new price in a variable.
+	12. Open a file called "secret.txt" and read only the first 50 characters of the file into a variable named secret_preview.
+	13. Open a file called "customer.txt" and read the first three lines, storing each line in the variables: name, address, and accountNumber.
+	14. Open a file called "repeater.txt" and read the first two lines and store the text from the first line repeated the number of times from the second line.
+	15. Open a file called "confidential.txt" and store its entire contents in a variable called leaks.
 
-C) Expressions # Topic
-	1. ...
-	...
-	15. ...
+C) Output # Topic
+	1. Print your name.
+	2. Print the number 10.
+	3. Print "Hello" and "World" on the same line.
+	4. Print "Python is fun!" three times (one line per print).
+	5. Print the result of the expression 2 + 3.
+	6. Print the result of the expression 7 * 6.
+	7. Print the sum of two variables.
+	8. Ask the user to input their name and print the name.
+	9. Print "My age is" followed by the number 15.
+	10. Print the result of a subtraction expression 100 - 45.
+	11. Create a variable called city and print "I live in" followed by the city.
+	12. Create two variables a = 4 and b = 5, and print their product.
+	13. Store a first name and a last name in variables, and print them on the same line.
+	14. Store a favorite color in a variable and print "My favorite color is", then the color.
+	15. Create a variable for your pet's name and print "My pet's name is", then the name.
+	16. Print the result of dividing 20 by 4.
+	17. Print the remainder of 17 % 5.
+	18. Print the square of a number stored in a variable.
+	19. Create two variables and print their average.
+	20. Print a number raised to a power.
+	21. Print three different fruits, one per line.
+	22. Print three number variables on the same line.
+	23. Print "Start", then a blank line, then "End".
+	24. Print the first character of a string using indexing.
+	25. Print 50 dollar signs on one line, your code should only contain one dollar sign character "$".
+	26. Ask the user to input a word, then print the length of the word.
 
-D) Strings # Topic
-	1. ...
-	...
-	15. ...
 
-E) Comments/Style # Topic
-	1. ...
-	...
-	15. ...
+
+D) String Formatting # Topic
+	1. Ask for a name and print Hello, <name>!, using an f-string.
+	2. Ask for an age and print You are <age> years old, using an f-string.
+	3. Ask for your favorite color and print Your favorite color is <color>, using an f-string.
+	4. Ask for a city and print I live in <city>, using an f-string.
+	5. Store a language in a variable and print I am learning <language>, using an f-string.
+	6. Store two numbers and print The sum is <sum>, using an f-string.
+	7. Store a price and tax rate, then print Total price: <price + tax>, using an f-string.
+	8. Print Double of 7 is <7 * 2> using a calculation inside an f-string.
+	9. Store height and width, then print Area: <height * width>, using an f-string.
+	10. Print Half of <number> is <number / 2> using a variable in an f-string.
+	11. Ask the user for a first name and last name, and print Hello, <first> <last>!, using an f-string.
+	12. Ask for favorite food and drink, then print I like <food> and <drink>, using an f-string.
+	13. Ask for a number and print You entered <number>, and its square is <number ** 2>, using an f-string.
+	14. Ask for three numbers and print The average is <average>, using an f-string.
+	15. Ask for a word and print The word '<word>' has <len(word)> letters, using an f-string.
+	16. Store a pet’s name and type, then print I have a <type> named <name>, using an f-string.
+	17. Store a book title and author, then print <title> was written by <author>, using an f-string.
+	18. Ask for a song and artist, then print I love the song "<song>" by <artist>, using an f-string.
+	19. Ask for a subject and teacher’s name, then print My <subject> teacher is <teacher>, using an f-string.
+	20. Ask for a hobby and how long you've done it, then print I've been doing <hobby> for <years> years, using an f-string.
+
+
+
 
