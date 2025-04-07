@@ -59,11 +59,95 @@ B) While Loops # Topic
 	29. Read numbers from a file and calculate their sum.
 	30. Read a file line by line; stop if a line contains the word “STOP”.
 
-C) For Loops # Topic
-	1. 
+C) Lists # Topic
+	1. Create a list of 5 integers and print it.
+	2. Given a list variable named some_list, print the first, middle, and last element of the list.
+	3. Create a list of strings and print each element using a for loop.
+	4. Ask the user to input 3 numbers and store them in a list. Then print the list.
+	5. Create a list with mixed data types (int, str, float) and print it.
+	6. Append 5 new item to the end of a list.
+	7. Insert an item at the beginning of a list and the end of the same list.
+	8. Remove the third item from a list.
+	9. Replace the second item in a list with a new value.
+	10. Clear all items from a list.
+	11. Check if a given number exists in a list.
+	12. Count how many times a value appears in a list.
+	13. Find the index of a given element in a list.
+	14. Check if a list is empty.
+	15. Find the maximum and minimum values in a list of numbers.
+	16. Print all even numbers in a list.
+	17. Create a new list with squares of numbers from an existing list.
+	18. Print all elements in a list in reverse order.
+	19. Create a list of 10 user input numbers using a while loop.
+	20. Sum all numbers in a list using a while loop.
+	21. Sort a list of numbers in ascending and descending order.
+	22. Make a copy of a list using slicing.
+	23. Slice a list to get the first 3 elements.
+	24. Get every second element from a list.
+	25. Combine two lists into one.
+	
 
-D) Lists # Topic
-	1. 
+D) Methods # Topic	
+	1. Convert a string to uppercase using a method.
+	2. Convert a string to lowercase using a method.
+	3. Count how many times a specific letter appears in a string.
+	4. Replace all spaces in a string with dashes.
+	5. Check if a string starts with a specific word.
+	6. Check if a string ends with a specific character.
+	7. Find the position of a word in a sentence using a method.
+	8. Remove leading and trailing spaces from a string.
+	9. Split a sentence into a list of words.
+	10. Join a list of words into a single string using spaces.
+	11. Capitalize only the first letter of a string.
+	12. Swap the case of all letters in a string.
+	13. Check if a string contains only digits.
+	14. Check if a string is alphabetic.
+	15. Find and replace a word in a sentence.
+	16. Append an element to a list.
+	17. Insert an element at a specific index.
+	18. Remove an element from a list.
+	19. Pop the last element from a list and print it.
+	20. Sort a list in ascending order.
+	21. Sort a list in descending order.
+	22. Reverse a list using a method.
+	23. Count how many times a value appears in a list.
+	24. Find the index of a value in a list. Print the value.
+	25. Import the math module and starting with a floating point number round up and store in variable rUp, round down and store in variable rDn.
+	26. Import the math module and print the value of pi.
+	27. Use math.sqrt() to find the square root of a number.
+	28. Use math.pow() to calculate 3 raised to the power of 4.
+	 
 
-E) Methods # Topic
-	1. 
+E) For Loops # Topic
+	1. Print numbers 1 to 10 using a for loop.
+	2. Print even numbers from 2 to 20 using a for loop.
+	3. Print a countdown from 10 to 1 using a for loop.
+	4. Print each character in a string input by the user using a for loop.
+	5. Print the square of numbers from 1 to 10 using a for loop.
+	6. Sum all numbers from 1 to n (user inputs the value of n) use a for loop.
+	7. Multiply all numbers in a list using a for loop.
+	8. Count how many even numbers are in a list using a for loop.
+	9. Calculate the average of a list of numbers using a for loop.
+	10. Find the largest number in a list using a for loop
+	11. Capitalize every word in a list of strings using a for loop.
+	12. Reverse each string in a list using a for loop.
+	13. Print words longer than 4 characters from a list using a for loop.
+	14. Count vowels in a given string using a for loop.
+	15. Remove all digits from a string using a for loop.
+	16. Check if a list contains a certain value without using 'in', use a for loop.
+	17. Print all numbers between 1 and 50 that are divisible by both 3 and 5 using a for loop.
+	18. Count and display the frequency of the word "the" in a file.
+	19. Determine if a word is a palindrome (e.g. "racecar") using a for loop.
+	20. Print a list of booleans indicating if each number is even using a for loop. 
+	21. Ask the user for 5 numbers and store them in a list, use a for loop.
+	22. Ask the user to enter a sentence and print each word on a new line using a for loop.
+	23. Print a formatted multiplication table using for loops.
+	24. Print all words longer than 6 characters from a file using a for loop.
+	25. Simulate a simple text-based menu and loop through user options.
+	26. Read a file and print each line with its line number using a for loop.
+	27. Count how many lines in a file contain the word "error" using a for loop.
+	
+
+
+
+
