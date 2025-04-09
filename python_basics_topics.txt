@@ -5,7 +5,7 @@ Python programming basics topics
    B. Data Types
    C. Expressions
    D. Strings
-   E. Comments/Style
+   E. Comments
 
 2. Spam I/O and Spam
    A. Basic Input
