@@ -1,63 +1,25 @@
-Python programming basics topics
+The Ministry of Simple Scripts
+Basic Python Topics
 
 1. Basic Python Bits
-   A. Variables
-   B. Data Types
-   C. Expressions
-   D. Strings
-   E. Comments
+   A. Variables #topic
+   B. Data Types #topic
+   C. Expressions #topic
+   D. Strings #topic
+   E. Comments #topic
 
-2. Spam I/O and Spam
-   A. Basic Input
-   B. File Input
-   C. Output
-   D. String Formatting with f-strings
+2. Ipswich and Otley I/O Div. 
+   A. Basic Input #topic
+   B. File Input #topic
+   C. Output #topic
+   D. f-strings Formatting #topic
 
 3. Loopy Lists and Looney Logic Ltd.
-   A. Conditionals
-   B. Loops
-   C. Lists
-   D. Methods
-
-
-2.C The print function
-2.A the input function
-1.D Quotes on Strings
-1.A Variable naming rules
-1.A Assignment operator
-1.C Arithmetic operators
-1.A Variable naming conventions
-1.B Variable values
-1.E Comments
-3.D String Methods
-2.D String Formatting
-1.B Integers
-1.B Floats
-1.B Boolean
-1.D Strings
-1.C Number Operators
-1.D String Operators
-1.D Concatenation
-1.B Conversion Functions
-3.D Math methods
-1.E Good Style
-3.A Conditions
-3.A Boolean Operators
-3.A Logic Operators
-3.B While Loops
-3.B For Loops
-3.C Looping through lists
-3.B Looping through strings
-3.B Nested Loops
-3.B Range function
-3.B Enumerate function
-3.C Lists
-3.C Indexing lists
-1.D Indexing strings
-3.C Parallel lists
-3.D List methods
-2.B Open files
-2.B Reading files
+   A. Conditionals #topic
+   B. For Loops #topic
+   C. While Loops #topic
+   D. Lists #topic
+   E. Methods #topic
 
 
 
