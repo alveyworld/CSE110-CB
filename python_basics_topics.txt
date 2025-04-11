@@ -2,24 +2,24 @@ The Ministry of Simple Scripts
 Basic Python Topics
 
 1. Basic Python Bits
-   A. Variables #topic
-   B. Data Types #topic
-   C. Expressions #topic
-   D. Strings #topic
-   E. Comments #topic
+   A. Variables
+   B. Data Types
+   C. Expressions
+   D. Strings
+   E. Comments
 
 2. Ipswich and Otley I/O Div. 
-   A. Basic Input #topic
-   B. File Input #topic
-   C. Output #topic
-   D. f-strings Formatting #topic
+   A. Basic Input
+   B. File Input
+   C. Output
+   D. f-strings Formatting
 
 3. Loopy Lists and Looney Logic Ltd.
-   A. Conditionals #topic
-   B. For Loops #topic
-   C. While Loops #topic
-   D. Lists #topic
-   E. Methods #topic
+   A. Conditionals
+   B. While Loops
+   C. Lists
+   D. Methods
+   E. For Loops
 
 
 
