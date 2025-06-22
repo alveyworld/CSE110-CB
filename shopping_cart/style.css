@@ -1,0 +1,122 @@
+/* style.css */
+
+/* General Styles */
+body {
+    background-color: #fefcf4;
+    color: #2b2b2b;
+    font-family: 'Cinzel Decorative', serif;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+    background-image: url('https://www.transparenttextures.com/patterns/paper-fibers.png');
+    background-repeat: repeat;
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+    text-transform: uppercase;
+    border-bottom: 2px dashed #222;
+    padding-bottom: 0.3em;
+    margin-top: 1.5em;
+}
+
+/* Paragraphs and Lists */
+p, li {
+    font-family: 'EB Garamond', serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Ordered Lists */
+ol {
+    background-color: #fffef6;
+    border: 2px solid #ccc;
+    padding: 15px 25px;
+    list-style-type:decimal;
+    margin-bottom: 2em;
+}
+
+/* Preformatted Code Blocks */
+pre {
+    background-color: #f7f3dc;
+    border: 3px double #444;
+    padding: 1em;
+    font-family: 'Courier New', monospace;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 2em;
+    position: relative;
+}
+pre::before {
+    content: "📺 Console Output";
+    position: absolute;
+    top: -1.5em;
+    left: 0;
+    background: #222;
+    color: #fff8dc;
+    padding: 3px 10px;
+    font-size: 0.8em;
+    border-radius: 5px 5px 0 0;
+}
+
+/* Span for User Input Simulation */
+span.user-input {
+    color: #912f56;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Menu Prompt Styling */
+p:has(+ ol) {
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline dotted;
+}
+
+/* Special Element Styling */
+code.plaintext {
+    font-family: 'Courier Prime', monospace;
+    display: block;
+    white-space: pre-wrap;
+}
+
+/* Add some fun Monty Python touches */
+body::after {
+    content: "🐍 Sponsored by the Ministry of Silly Walks";
+    display: block;
+    text-align: center;
+    margin-top: 3em;
+    font-style: italic;
+    color: #555;
+    font-size: 0.9em;
+}
+
+h1::before {
+    content: "🕵 ";
+}
+h1::after {
+    content: " 🦜";
+}
+
+h2 {
+    background: linear-gradient(to right, #eee 0%, #ddd 100%);
+    padding: 0.3em;
+    border-left: 5px solid #333;
+}
+h3 {
+    background: linear-gradient(to right, #eee 0%, #ddd 100%);
+    padding: 0.3em;
+}
+
+/* Links if any */
+a {
+    color: #990000;
+    text-decoration: underline wavy;
+}
+
+/* Custom Fonts (Google Fonts imports - add in HTML head if not already) */
+/* 
+<link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=EB+Garamond&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+*/
+

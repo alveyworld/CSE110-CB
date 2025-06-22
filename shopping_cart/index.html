@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>CSE 110 - Course Materials</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=DM+Serif+Display&family=Merriweather&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+
+        <h1>Practice Product - Online Store</h1>
+
+        <h2>🔨 Break it down</h2>
+        <p>Let's say you have an idea for a product. You want to create an online store for selling your own line of Monty Python cosplay apparel! To tackle this efficiently, you would break it down into manageable components. Each major area includes smaller tasks or decisions you’ll need to make.</p>
+
+        <p>Here is a possible breakdown of the main tasks you would need to make for your product: Business Planning, E-Commerce Platform & Technology, Website Design & UX, Product & Inventory Management, Logistics & Fulfillment, Marketing & SEO, Customer Support, and Analytics & Optimization.</p>
+
+        <p>Each of those tasks could be broken down further. If you took the E-Commerce Platform, you could break that down into smaller tasks such as: Architecture & Planning, Product Catalog System, User Authentication & Accounts, Shopping Cart, Checkout System, Order Management, Notifications System, Content Management, Search & Filtering, Analytics & Admin Dashboard, Security & Compliance, Testing & QA, and DevOps & Deployment</p>
+
+        <p>You would continue breaking down the problem into smaller more managable problems, and many could be completed by writing computer code. Take the Shopping Cart task for example. You could start coding a simple shopping cart with Python, where users can add items to the cart, remove items, view the contents of the cart, and see the total. You could store this collection of items in a Python list, output the list contents and totals, output a menu to add/remove items, and get input from the user to update the cart.</p> 
+
+        <h2>Shopping Cart Task</h2>
+        <p>Focus on the task to create a program that stores a list of products in a shopping cart along with their prices. The user should have the ability to add items to the list, remove them, and see the total price of the cart.</p>
+
+        <h2>Task Requirements</h2>
+        <p>The user will be given a menu and have the ability to choose items from the menu. The options in the menu include the following:</p>
+
+        <ol>
+            <li><p>Add a new item</p></li>
+            <li><p>Display the contents of the shopping cart</p></li>
+            <li><p>Remove an item</p></li>
+            <li><p>Compute the total</p></li>
+            <li><p>Quit</p></li>
+        </ol>
+
+        <p>When the user chooses one of these options, the program should perform the appropriate action. Then the program should show them the menu again, and allow them to choose another option. It should continue running until the user choose the option to quit.</p>
+
+        <h2>Expected behavior of each option:</h2>
+
+        <h3>Add a new item</h3>
+        <p>The program asks the user for the name of the item and the price of the item.</p>
+
+        <p>The program stores these values in lists. You are storing both names and prices so you should use two lists, one for the names and one for the prices.</p>
+
+        <p>An example of the functionality of this item could look as follows:</p>
+
+<pre><code class="plaintext">
+What item would you like to add? <span class="user-input">Bowler Hat</span>
+What is the price of 'Bowler Hat'? <span class="user-input">65.99</span>
+'Bowler Hat' has been added to the cart.
+</code></pre>
+
+        <p>After the user provides these values, the item and its price are each stored in a list.</p>
+
+
+        <h3>Display the contents of the shopping cart</h3>
+        <p>The program should display all of the items in the shopping cart, one per line. The price of each item should be displayed next to the item.</p>
+
+        <p>The program should also display the number associated with each item in the list, beginning with 1.</p>
+
+        <p>An example of the functionality of this item could look as follows:</p>
+
+<pre><code class="plaintext">
+The contents of the shopping cart are:
+1. Bowler Hat - $65.99
+2. Police Whistle - $24.99
+3. Bird Cage - $48.50
+</code></pre>
+
+        <h3>Remove an Item</h3>
+        <p>The user types in the number of the item they want to remove and the item is removed. Both the name and the price must be removed from their respective lists.</p>
+
+        <p>The following shows an example of this functionality assuming there are 5 items in the list:</p>
+
+<pre><code class="plaintext">
+Which item would you like to remove? <span class="user-input">3</span>
+Item removed.
+</code></pre>
+
+<pre><code class="plaintext">
+Which item would you like to remove? <span class="user-input">13</span>
+Sorry, that is not a valid item number.
+</code></pre>
+
+        <h3>Compute the Total</h3>
+
+        <p>The program should iterate (loop) through each item in the list and add up the prices and then display the total amount to the user.</p>
+
+        <p>The following shows the expected result, assuming the total amount of the items in the shopping cart is $35.68</p>
+
+<pre><code class="plaintext">
+The total price of the items in the shopping cart is $35.68
+</code></pre>
+
+        <p>The following shows an example of the complete program:</p>
+
+<pre><code class="plaintext">
+Welcome to the Shopping Cart Program!
+
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 1
+What item would you like to add? Cheese
+What is the price of 'Cheese'? 3.49
+'Cheese' has been added to the cart.
+
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 1
+What item would you like to add? Bananas
+What is the price of 'Bananas'? 2.50
+'Bananas' has been added to the cart.
+
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 1
+What item would you like to add? Spam
+What is the price of 'Spam'? 4.00
+'Spam' has been added to the cart.
+
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 2
+The contents of the shopping cart are:
+1. Cheese - $3.49
+2. Bananas - $2.50
+3. Spam - $4.00
+
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 3
+Which item would you like to remove? 2
+Item removed.
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 2
+The contents of the shopping cart are:
+1. Cheese - $3.49
+2. Spam - $4.00
+
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 4
+The total price of the items in the shopping cart is $7.49
+
+Please select one of the following: 
+1. Add item
+2. View cart
+3. Remove item
+4. Compute total
+5. Quit
+Please enter an action: 5
+Thank you. Goodbye.
+</code></pre>
+        
+        <h2>Showing Creativity and Exceeding Requirements</h2>
+        <p>In addition to the functionality listed above, add something of your own creativity to the assignment. You could consider adding better formatting (for example, aligning the prices), storing extra information, such as the quantity of the items in the list, or you can add anything else you think of to make the shopping cart better.</p>
+
+        <h2>Submission</h2>
+        <p>When the task is complete, upload your code to I-learn.</p>
+
+
+    <script>hljs.initHighlightingOnLoad();</script>
+ 
+</body>
+</html>
